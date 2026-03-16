@@ -5,6 +5,9 @@
 // @description  Adds Copy buttons for ID, BIN, GRP, and PCN on the walgreens.rxsense.com large coupon view
 // @author       GiveUs20Minutes
 // @homepageURL  https://github.com/herebran/wag-rxsense-copy
+// @supportURL   https://github.com/herebran/wag-rxsense-copy/issues
+// @updateURL    https://raw.githubusercontent.com/herebran/wag-rxsense-copy/main/Walgreens_RxSense_Coupon_Copy_Buttons.user.js
+// @downloadURL  https://raw.githubusercontent.com/herebran/wag-rxsense-copy/main/Walgreens_RxSense_Coupon_Copy_Buttons.user.js
 // @match        https://walgreens.rxsense.com/*
 // @grant        GM.setClipboard
 // @run-at       document-idle
@@ -37,7 +40,7 @@
             margin-left: 20px !important;
         }
 
-        /* Remove the per-row margin-right offsets — grid handles alignment */
+        /* Remove the per-row margin-right offsets - grid handles alignment */
         span[class*="couponLabel"] {
             margin-right: 0 !important;
             white-space: nowrap !important;
